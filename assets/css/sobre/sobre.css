@@ -1,0 +1,45 @@
+.sobre-mim{
+    display: flex;
+}
+
+.sobre-mim .img img{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    position: absolute;
+    z-index: 4;
+}
+.sobre-mim .img .background{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background-color: #292929;
+    top: 10px;
+    left: 10px;
+}
+.sobre-mim .desc{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.conhecimentos{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px 0 10px;
+}
+.conhecimentos .desc{
+    margin-left: 20px;
+}
+.conhecimentos ul li ul{
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .sobre-mim{
+        flex-direction: column;
+    }
+    .sobre-mim .img{
+        margin: 0 auto;
+    }
+}

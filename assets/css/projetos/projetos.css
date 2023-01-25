@@ -1,0 +1,57 @@
+.projetos{
+    width: 100%;
+    min-height: 300px;
+}
+.projetos .container-projetos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.projetos .container-projetos a{
+    color: #FFF;
+    text-decoration: none;
+}
+.projetos .container-projetos a .projeto{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+}
+.projetos .container-projetos a .projeto .img{
+    position: absolute;
+}
+.projetos .container-projetos a .projeto .img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.projetos .container-projetos a .projeto .txt-projeto{
+    background-color: #1e1e1e;
+    position: relative;
+    top: 200px;
+    padding: 5px;
+    height: 150px;
+    transition: ease-in-out 0.3s;
+}
+.projetos .container-projetos a .projeto .title-projeto{
+    background-color: #1e1e1e;
+    position: relative;
+    height: 50px;
+    top: 50px;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    z-index: 999;
+}
+.projetos .container-projetos a .projeto:hover > .txt-projeto{
+    top: 50px;
+}
+.projetos .btn-projetos{
+    display: flex;
+    justify-content: center;
+}
