@@ -77,6 +77,9 @@ footer a{
         height: 100px;
         align-items: center;
     }
+    .header-content h1{
+        margin-left: 0;
+    }
     .header-content .nav-menu{
         list-style: none;
         display: flex;
